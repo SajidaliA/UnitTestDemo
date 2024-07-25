@@ -7,11 +7,11 @@ import org.junit.Test
 class HelperTest {
 
     @Test
-    fun isPallindrome() {
+    fun isPalindrome() {
         //Arrange
         val helper = Helper()
         //Act
-        val result = helper.isPallindrome("Hello")
+        val result = helper.isPalindrome("Hello")
         //Assert
         assertEquals(false, result)
     }

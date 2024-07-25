@@ -1,7 +1,7 @@
 package com.example.unittestdemo.util
 
 class Helper {
-    fun isPallindrome(input: String): Boolean {
+    fun isPalindrome(input: String): Boolean {
         var i = 0
         var j = input.length -1
         var ressult = true
